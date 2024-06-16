@@ -51,6 +51,36 @@ form {
   width: 48%;
 }
 
+.phone-input{
+  display: flex;
+  align-items: center;
+}
+.country-codes{
+  display: flex;
+  font-size: 14px;
+  padding: 1.4rem 1rem;
+  width: 30%;
+  border: 0px;
+  background: none;
+  cursor: pointer;
+}
+
+.phone-container{
+  display: inline;
+  
+  font-family: PremierSans-Regular, Arial, "Helvetica Neue", Helvetica, "sans-serif";
+  font-size: 16px;
+  width: 50%;
+  box-sizing: border-box;
+  background-color: rgb(232, 232, 232);
+}
+.phone-container input{
+  height: 30px;
+
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
 .form-group label {
   margin-bottom: 5px;
   font-weight: bold;

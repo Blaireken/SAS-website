@@ -234,6 +234,20 @@ body {
   margin: 20px;
 }
 
+c.country-codes{
+  display: block;
+  font-family: PremierSans-Regular, Arial, "Helvetica Neue", Helvetica, "sans-serif";
+  font-size: 16px;
+  padding: 1.4rem 1rem;
+  width: 100%;
+  position: relative;
+  z-index: 90;
+  border: 0px;
+  border-radius: 0px;
+  background: none;
+  appearance: none;
+  cursor: pointer;
+}
 
 .social-logo img {
   width: 100px; /* Adjust the size as needed */
